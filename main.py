@@ -58,5 +58,6 @@
 # print(f"{a} // {b} = {a//b}")
 #
 # 00-06
-print("Task 00-06")
-print(123)
+
+from test import call
+print(call("asdasdasd"))
