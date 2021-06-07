@@ -109,8 +109,6 @@
 # #00-11
 x = input("Enter your first string: ")
 y = input("Enter your second string: ")
-#if not x or y:
-#   print("...")
 if x == "" or y == "":
     print("one of the string is empty")
     quit()
