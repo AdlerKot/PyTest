@@ -107,13 +107,22 @@
 # print("--- Simple calculator ---")
 #
 # #00-11
-#x = input("1: ")
-#y = input("2: ")
-x = "qwerty"
-y = "ert"
-len_y = len(y)
-print(len_y)
-qw = x.find(y)
-print(qw)
-f = qw + len_y
-print(x[qw:f])
+x = input("Enter your first string: ")
+y = input("Enter your second string: ")
+#if not x or y:
+#   print("...")
+if x == "" or y == "":
+    print("one of the string is empty")
+    quit()
+command = input("Enter your command: ")
+if command == "find":
+    print(y in x)
+elif command == "concat":
+    print(f"{x} {y}")
+elif command == "beatbox":
+    d = input("Enter your first beatbox number: ")
+    f = input("Enter your second beatbox number: ")
+    print((x*int(d))+(y*int(f)))
+
+else:
+    print("Usage: command find | concat | beatbox")
