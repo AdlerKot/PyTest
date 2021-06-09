@@ -64,3 +64,5 @@
 # b = 5
 # c = min(7, a//b)
 # print(c) // ответ 7
+def test():
+    print("ha ha, nice")
