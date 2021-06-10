@@ -1,2 +1,1 @@
-from Sprints.Sprint01.Sprint01 import test
-test()
+print("Spint02-03")
