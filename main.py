@@ -1,1 +1,0 @@
-print("Spint02-03")
