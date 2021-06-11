@@ -1,6 +1,5 @@
 def list_maker(line, delim=""):
-    result = line.split(delim)
-    return result
+    return line.split(delim)
 if __name__ == '__main__':
     line, delim = 'surprise', '-'
     res = list_maker(line, delim)
