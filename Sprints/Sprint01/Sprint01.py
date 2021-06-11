@@ -4,7 +4,7 @@
 #     if __name__ == "__main__":
 #         print(os.path.basename(__file__))
 # print_filename()
-
+#
 # #S01-01
 # def crystal_ball(courage, intelligence):
 #     if courage > 50 and intelligence > 50:
@@ -27,7 +27,7 @@
 #     print_result(100, 25)
 #     print_result(50, 55)
 #     print_result(50, 9)
-
+#
 # #S01-02
 # def buy_milk(money=0):
 #     product = "[milk]"
@@ -64,5 +64,17 @@
 # b = 5
 # c = min(7, a//b)
 # print(c) // ответ 7
-def test():
-    print("ha ha, nice")
+#
+# #S01-03
+# def patoi(a):
+#     b = int()
+#     try:
+#         b = int(a)
+#         return b
+#     except ValueError:
+#         return False
+# print(patoi(3))
+# print(patoi('Romanes eunt domus'))
+# print(patoi('34b'))
+# print(patoi(-234.59))
+# print(patoi('-234'))
